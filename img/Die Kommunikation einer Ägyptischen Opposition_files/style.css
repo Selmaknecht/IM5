@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.google.com/specimen/Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+
+body {
+  background-color: #efebdc;
+  font-family: 'Lato Haarfein', sans-serif;
+  color: white;
+  background-image: url(../img/endgültigelinie.svg);
+  background-repeat:repeat-y;
+  background-size: contain;
+  background-position: center;
+  background-size: 100%;
+  margin: 0;
+}
+
+
+
+
+
+
+h1 {
+
+  color: rgb(64, 28, 28);
+  text-sh: ;
+  font-family: 'Righteous', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  /*border-bottom: dotted;
+  border-bottom-color: orange;
+  border-width: thick;*/
+  margin:auto;
+  margin-top: 4em;
+  margin-bottom: 0em;
+  width: 70%;
+  position:relative;
+  font-weight: lighter;
+
+
+  /* border: 3px black solid; */
+
+}
+/*h1::before{
+
+  content: "";
+  background-image: url(../img/monstera4.png);*/
+
+  /* background-color: red; */
+  /*width: 26vw;
+  height: 40vh;
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -7vw;
+  top: -14vh;
+  background-size: contain;
+  transform: rotate(180deg);
+
+}
+*/
+
+
+  /*
+h1::after{
+
+  content:"";*/
+  /* border: 4px solid black; */
+    /*background-image: url(../img/monstera1.png);*/
+  /* background-color: red; */
+  /*  width: 21vw;
+  height:35vh;
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: -3vw;
+  top: -3vh;
+  transform: scaleX(-1);
+  background-size: contain;
+}
+
+
+*/
+
+h2 {
+  font-size: 2em;
+  font-family: 'Righteous', sans-serif;
+  width: 15em;
+  text-align: center;
+  margin: auto;
+  margin-top: 0em;
+  padding: 1em;
+  margin-bottom: 4em;
+  height: 1em;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(212, 212, 212) 1px 0 10px;
+  font-weight: lighter;
+  /* border: 3px black solid; */
+}
+
+h3{
+font-family: 'Righteous', sans-serif;
+color: #efebdc;
+font-weight: bolder;
+font-size: 1.5em;
+padding:0em;
+
+
+
+
+}
+h4{
+  font-family: 'Righteous', sans-serif;
+  color: #514d39b4;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding:0em;
+  
+}  
+
+h5{
+  font-family: 'Righteous', sans-serif;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding:0em;
+  
+}  
+header p {
+font-family: 'Righteous', sans-serif;
+font-size: 1em;
+text-align: center;
+margin-top: 0em;
+/*margin: auto;*/
+text-decoration: underline black solid;
+padding: none;
+
+/* border: 3px black solid; */
+
+}
+.einleitung{
+
+  background-color:  rgb(64, 28, 28);
+
+  /*margin-bottom: 2.5em;*/
+  padding-bottom: 2.5em;
+  /*margin: 4em;*/
+  margin-top: 1em;;
+  
+ 
+  
+
+
+}
+.abschnitt-zwei{
+  background-color: transparent;
+  /*margin-top: 2.5em;*/
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+ /* border:solid black;*/
+ margin: auto;
+ font-family: 'Heebo', sans-serif;
+ padding-top: 1em;
+
+ margin-top:1.5em;
+ width: 65vw;
+ font-size: 1.25em;
+ text-align: center;
+ color:black;
+ font-weight: lighter;
+
+}
+
+.abschnitt-drei{
+  background-color: #cbc5ab;
+  /*margin-top: 2.5em;*/
+  margin-bottom: 2.5em;
+  padding-bottom: 2.5em;
+ /* border:solid black;*/
+ margin: auto;
+ font-family: 'Heebo', sans-serif;
+
+ padding: 2em;
+ padding-top: 0em;
+ margin-top:1.5em;
+ width: 65vw;
+ font-size: 1.25em;
+ text-align: center;
+ color:black;
+ font-weight: lighter;
+ border: solid #8c84618e;
+ border-width: fat;
+
+}
+
+.ende{
+
+background-color:rgb(64, 28, 28);
+height: 36em;
+padding-bottom: 3em;
+
+}
+.vorwort {
+  /* border: 4px inset black; */
+  /*  border-width: inherit;
+  border-style:dashed;
+  border-color: grey;*/
+  /*box-shadow: 10px 20px 10px rgb(220,220,220);*/
+  /*border-radius: 3em; */
+
+  /* margin-left:  */
+  
+
+  margin: auto;
+  font-family: 'Heebo', sans-serif;
+  padding-top: 1em;
+
+  margin-top:1.5em;
+  width: 65vw;
+  font-size: 1.25em;
+  text-align: center;
+  color:#efebdc;;
+  font-weight: lighter;
+}
+
+.abschnitt {
+  margin: auto;
+  font-family: 'Heebo', sans-serif;
+  padding-top: 1em;
+
+  margin-top:1.5em;
+  width: 65vw;
+  font-size: 1.25em;
+  text-align: center;
+  color:black;
+  font-weight: lighter;
+}
+
+article a img{ 
+  /*height: 400px;*/
+  width: 500px;
+}
+
+main {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+/* border:3px solid black; */
+grid-gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+margin-top: 4.5em;
+grid-gap: 30px;
+justify-content:center;
+
+
+}
+
+.bild1 {
+  grid-column: 1 / 2;
+  grid-row: 1/3;
+  /* border: 4px inset black; */
+  border-width: inherit;
+  /*box-shadow: 10px 20px 15px rgb(61, 52, 23);*/
+  /*border-color: orange;
+  border-radius: 3em;
+  border-style: dotted; */
+
+  /* margin-top: 3.5em; */
+  margin-bottom: 0em;
+  margin-top: 4em;
+  padding: 0.5em 3em 1em;
+  text-align: center;
+
+
+  }
+
+  .bild2 {
+    grid-column: 2 / 2;
+    grid-row: 2/4;
+    /* border: 4px inset black; */
+    border-width: inherit;
+    /*box-shadow: 10px 20px 15px rgb(61, 52, 23);*/
+    /*border-radius: 3em;
+    border-color: orange;
+    border-style: dotted;*/
+    margin-top: 3em;;
+    padding: 0.5em 3em 1em;
+    text-align: center;
+    }
+
+    .bild3 {
+      grid-column: 1 / 2;
+      grid-row: 3/5;
+      /* border: 4px inset black; */
+      border-width: inherit;
+      /*box-shadow: 10px 20px 15px rgb(61, 52, 23);*/
+
+
+      margin-top: 3em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild4 {
+      grid-column: 2 / 2;
+      grid-row: 4/6;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild5 {
+      grid-column: 1 / 2;
+      grid-row: 5/7;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild6 {
+      grid-column: 2 / 2;
+      grid-row: 6/8;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild7 {
+      grid-column: 1 / 2;
+      grid-row: 7/9;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild8 {
+      grid-column: 2 / 2;
+      grid-row: 8/10;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild9 {
+      grid-column: 1 / 2;
+      grid-row: 9/11;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+
+    .bild10 {
+      grid-column: 2 / 2;
+      grid-row: 10/12;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+
+    .bild11 {
+      grid-column: 1/ 2;
+      grid-row: 11/13;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+
+    .bild12 {
+      grid-column: 2 / 2;
+      grid-row: 12/14;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+
+    .bild13 {
+      grid-column: 1 / 2;
+      grid-row: 13/15;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    .bild14 {
+      grid-column: 2 / 2;
+      grid-row: 14/16;
+      /* border: 4px inset black; */
+
+      margin-top: 3em;
+      padding-left: 0.5em;
+      padding: 0.5em 3em 1em;
+      text-align: center;
+    }
+
+    footer {
+    /*  display: flex;
+      flex-direction: row;*/
+      height:5em;
+      justify-content: space-around;
+
+      align-items: center;
+      border-radius: 3em;
+      /*box-shadow: 10px 20px 15px rgb(61, 52, 23);*/
+      margin-top: 6em;
+      margin-bottom: 2em;
+
+
+
+    }
+
+    a {
+      font-family: 'Heebo', sans-serif;
+      color: white;
+      font-size: 2em;
+
+
+
+    }
+img{
+border-style: groove;
+border-color: white;
+
+}
+aside{
+
+  /* border: 3px black solid; */
+  float: left;
+  /* margin-left: -27vw; */
+  /* margin-top: -100em; */
+  margin-top: 3em;
+  padding: 0.5em 1em 1em;
+  list-style-type: none;
+  background-color: rgb(232, 218, 188);
+  border-radius: 3em;
+  box-shadow: 10px 20px 15px rgb(61, 52, 23);
+  position: relative;
+  top: 50em;
+  width: 15vw; /* Diese Breite kannst du ändern */
+  height: 65vh;
+  left: 50px; /* Vergiss nicht diesen Wert anzupassen, wenn du die Breite änderst! */
+  top: 0;
+  bottom: 0;
+  /* background-color: rgba( 0, 0, 0, .9 ); */
+  padding: 15px 0;
+  transition: left 1s ease-in 0.5s; /* Das ist der Verlauf zwischen left: -150px und left: 0 (Im Code-Block "Main-Wrapper - Teil 3" erfährst du mehr dazu) */
+  text-align: center;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  padding-left: 25px;
+  /* display: block; */
+  padding: 0.5em 3em 1em;
+  /* padding-left: 30px; */
+
+
+}
+
+
+.zen-validate-html {
+margin-left: 3.5em;
+
+
+}
+
+.Schwanlogo {
+max-width: 50%;
+margin: auto;
+display: block;
+
+
+}
+
+.dayone {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.daytwo {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.daythree {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.dayfour {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+
+.dayfive {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+
+.daysix {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.dayseven {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.dayeight {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.daynine {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+
+.dayten{
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+
+.dayeleven{
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.daytwelve {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.daythirteen {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+.dayfourteen {
+max-width: 70%;
+margin: auto;
+display: block;
+
+
+}
+
+
+.schluss {
+  /* border: 4px inset black; */
+  /*  border-width: inherit;
+  border-style:dashed;
+  border-color: grey;*/
+  /*box-shadow: 10px 20px 10px rgb(220,220,220);*/
+  /*border-radius: 3em; */
+
+  /* margin-left:  */
+
+  margin: auto;
+  font-family: 'Heebo', sans-serif;
+  padding-top: 1em;
+
+  margin-top:1.5em;
+  width: 65vw;
+  font-size: 1.25em;
+  text-align: center;
+  color:white;
+  font-weight: lighter;
+  margin-bottom: -0.5em;
+  height: 16em;
+  background-color: #514d39b4;
+
+}
+
+
+@media screen and (max-width: 430px) {
+
+  header p {
+  text-align: center;
+  margin-top: 0em;
+  margin: auto;
+  text-decoration: underline black solid;
+  max-width: inherit;
+
+  /* border: 3px black solid; */
+
+  }
+
+
+body{
+max-width: inherit;
+
+
+}
+h1 {
+
+
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: 'Righteous', sans-serif;
+  width: 7em;
+  text-align: center;
+  }
+
+main {
+  display:block;
+
+  /* border:3px solid black; */
+
+  margin-top: 4.5em;
+  grid-gap: 30px;
+  justify-content:center;
+  text-align: center;
+
+
+}
+
+
+
+.vorwort {
+
+    /* border: 4px inset black; */
+    /*  border-width: inherit;
+    border-style:dashed;
+    border-color: grey;*/
+    /*box-shadow: 10px 20px 10px rgb(220,220,220);*/
+    /*border-radius: 3em; */
+
+    /* margin-left:  */
+
+    margin: auto;
+    font-family: 'Heebo', sans-serif;
+
+    width: 65vw;
+    font-size: 1em;
+    text-align: center;
+    color:white;
+    font-weight: lighter;
+  }
+
+.übermich{
+font-size: 1em;
+
+}
+
+.auftrag {
+justify-content: center;
+align-items: center;
+
+}
+.Schwanlogo {
+max-width: 100%;
+margin: auto;
+display: block;
+
+
+}
+
+.schluss {
+  /* border: 4px inset black; */
+  /*  border-width: inherit;
+  border-style:dashed;
+  border-color: grey;*/
+  /*box-shadow: 10px 20px 10px rgb(220,220,220);*/
+  /*border-radius: 3em; */
+
+  /* margin-left:  */
+
+  margin: auto;
+  font-family: 'Heebo', sans-serif;
+  padding-top: 1em;
+
+  margin-top: auto;
+  width: 65vw;
+  font-size: 1em;
+  text-align: center;
+  color:white;
+  font-weight: lighter;
+  margin-top: 5em;
+  margin-bottom: none;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  height: 15em;
+
+}
+
+
+h3 {
+justify-content: center;
+text-align: center;
+
+}
+
+img {
+width: 100%;
+height: 100%;
+}
+.ende{
+
+background-color: orange;
+height: 10em;
+padding-bottom: none;
+
+
+
+}
+
+}
